@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>弹幕聊天室</title>
+        <script src="/assets/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
+        <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/assets/client.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="content" class="ul">
+        </div>
+        <form>
+        <div class="textInput">
+            <div class="input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">发送</button>
+              </span>
+            </div><!-- /input-group -->
+        </div>
+        </form>
+     	<script src="/socket.io/socket.io.js"></script>
+        <script src="/assets/client.js"></script>
+    </body>
+</html>
